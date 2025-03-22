@@ -1,0 +1,54 @@
+
+  
+
+#imagen1 {
+    margin-left: 10px;
+    justify-content: center;
+    width: 100px;
+}
+
+.imagen2{
+    
+    margin-top: 20px;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right:10px;
+}
+
+
+
+.titulo3 {
+    color: black;
+    font-size: 35px;
+    justify-content: center;
+    padding-top: 45px;
+    text-align: center;
+    padding-bottom: 60px;
+    
+}
+
+.benefits {
+    
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    height: auto;
+    padding-bottom: 60px;
+    padding-left: 30px;
+}
+
+.benefits-text {
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.listas{
+    display: flex;
+    
+    gap: 50px;
+    
+    
+}

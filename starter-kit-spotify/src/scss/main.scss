@@ -1,127 +1,13 @@
-/* @use 'core/reset';
-@use 'components/code';
+@use 'core/reset';
+@use 'layout/header';
+/*@use 'components/code';
 @use 'components/links';
 @use 'layout/page';
-@use 'layout/header';
+
 @use 'layout/footer';
 @use 'pages/index'; */
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-
-* {
-    margin: 0;
-    padding: 0.02px;
-    box-sizing: border-box;
-    font-family: 'Circular Black', sans-serif;
-    font-size: 50px;
-    /* content: 0px; */
-}
-
-.seccion-negra {
-    margin: 0;
-    background-color: black;
-
-
-
-}
-
-.seccion-azul {
-    
-    
-    background-color: rgb(81, 156, 240);
-    color: white;
-    
-    
-}
-
-.titulo1 {
-    margin: 10px;
-    padding-top: 100px;
-    background-color: rgb(81, 156, 240);
-    padding-bottom: 15px;
-
-    
-}
-
-.titulo2 {
-    margin: 10px;
-    padding-bottom: 12px;
-    font-size: 25px;
-
-
-    
-
-}
-.boton {
-    display: flex;
-    justify-content: center; /*media*/
-    align-items: center;
-    height: 40px;
-    width: 450px;
-    background-color: rgb(37, 183, 88);
-    border-radius: 40px;
-    text-align: center;  
-    font-size: 12px;
-    color: white;
-    border: none;
-    
-}
-
-.contenedor-boton {
-    display: flex;
-    flex-direction: column; /* Asegura que los elementos estén en columna */
-    align-items: center; /* Centra horizontalmente todos los elementos */
-    
-    
-  }
-  
-  boton {
-    width: 450px; /* Ancho del botón */
-    height: 40px; /* Alto del botón */
-    background-color: #21da11c9;
-    color: white;
-    font-size: 12px;
-    border: none;
-    border-radius: 20px;
-    cursor: pointer;
-    text-align: center;
-  }
-   
- 
-  
-  
-  
-
-#imagen1 {
-    margin-left: 10px;
-    justify-content: center;
-    width: 100px;
-}
-
-.imagen2{
-    
-    margin-top: 20px;
-    width: 20px;
-    height: 20px;
-    position: absolute;
-    right:10px;
-}
-
-.parrafo {
-
-    font-size: 12px;
-    margin-top: 20px;
-    margin-left: 10px;
-    margin-bottom: 20px;
-    font-weight: bold;
-}
-
-.titulo3 {
+.main__titulo3 {
     color: black;
     font-size: 35px;
     justify-content: center;
@@ -131,28 +17,62 @@
     
 }
 
-.benefits {
-    
-    display: flex;
-    flex-direction: column;
-    width: 100px;
-    height: auto;
-    padding-bottom: 60px;
-    padding-left: 30px;
-}
-
-.benefits-text {
-    font-size: 15px;
-    display: flex;
-    flex-direction: column;
-    
-}
-
-.listas{
+.main__listas{
     display: flex;
     
-    gap: 50px;
-    
-    
-}
+    gap: 30px;
 
+    ul {
+        list-style-type: none;
+        
+
+        .main__benefits {
+    
+            display: flex;
+            flex-direction: column;
+            width: 100px;
+            height: auto;
+            padding-bottom: 60px;
+            padding-left: 30px;
+        }
+        
+        .main__benefits-text {
+            font-size: 15px;
+            display: flex;
+            flex-direction: column;
+            
+        }
+
+        .main__benefits-negrita{
+            font-weight: bold;
+            font-size: 20px ;
+
+        }
+
+        .main__benefits-text{
+            margin-bottom: 30px;
+            margin-top: 10px;
+
+
+        }
+
+        .main__benefit1{
+            margin-bottom: 50px;
+            margin-top: 15px;
+
+        }
+        
+
+    }
+    
+    
+   
+
+}
+ 
+
+
+
+
+  
+  

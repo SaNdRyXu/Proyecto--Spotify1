@@ -1,5 +1,87 @@
-.page__header {
-  display: flex;
-  justify-content: space-evenly;
-  margin-bottom: 3rem;
+.header__seccion-negra {
+  margin: 0;
+  background-color: black;
+
+  #header__imagen1 {
+    margin-left: 10px;
+    justify-content: center;
+    width: 100px;
 }
+ 
+.header__imagen2{
+    
+  margin-top: 20px;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  right:10px;
+}
+
+}
+
+.header__seccion-azul {
+  
+  
+  background-color: rgb(81, 156, 240);
+  color: white;
+ 
+  .header__titulo1 {
+    margin: 10px;
+    padding-top: 100px;
+    background-color: rgb(81, 156, 240);
+    padding-bottom: 15px;
+   
+  }
+  
+
+  .header__titulo2 {
+    margin: 10px;
+    padding-bottom: 12px;
+    font-size: 25px;
+  
+  
+  }
+
+
+  .header__boton {
+    display: flex;
+    justify-content: center; /*media*/
+    align-items: center;
+    height: 40px;
+    width: 450px;
+    background-color: rgb(37, 183, 88);
+    border-radius: 40px;
+    text-align: center;  
+    font-size: 12px;
+    color: white;
+    border: none;
+    
+  }
+
+
+  .header__contenedor-boton {
+    display: flex;
+    flex-direction: column; /* Asegura que los elementos estén en columna */
+    align-items: center; /* Centra horizontalmente todos los elementos */
+    
+    /*media queris para desktop y tablet quitando margenes*/
+  }
+  
+  .header__parrafo {
+  
+    font-size: 12px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+
+}
+
+
+
+
+
+
+
+ 
