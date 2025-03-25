@@ -1,10 +1,31 @@
 @use '../core/variables' as vars;
 
-.page__footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100vw;
-    padding: 1rem;
-    color: vars.$color-secondary;
+
+
+.pie {
+    background-color: black;
+    color: white;
+    display: grid;
+    font-size: 10px;
+}
+
+// .page__footer {
+//     position: fixed;
+//     left: 0;
+//     bottom: 0;
+//     width: 100vw;
+//     padding: 1rem;
+//     color: vars.$color-secondary;
+// }
+
+.españa {
+    display: flex;
+    justify-content: end;
+    margin: 20px;
+
+}
+
+.bandera {
+    width: 15px;
+    padding-left: 5px;
 }
